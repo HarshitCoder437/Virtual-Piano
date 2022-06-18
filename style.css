@@ -83,3 +83,28 @@ ul li:last-child {
   font-size: 20px;
   padding-bottom: 15px;
 }
+@media screen and (max-width: 1000px) and (min-width: 451px) {
+  ul {
+    padding: 3em 0 0 0;
+  }
+  ul .white {
+    height: 12em;
+    width: 3em;
+  }
+}
+@media screen and (max-width: 450px) {
+  ul {
+    width: 90vw;
+    height: 12.875em;
+    padding: 3em 0 0 0;
+  }
+  .black {
+    height: 5em;
+    width: 2em;
+  }
+  ul .white {
+    cursor: pointer;
+    height: 9em;
+    width: 2em;
+  }
+}
