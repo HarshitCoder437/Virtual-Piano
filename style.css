@@ -83,7 +83,11 @@ ul li:last-child {
   font-size: 20px;
   padding-bottom: 15px;
 }
-@media screen and (max-width: 1000px) and (min-width: 451px) {
+@media screen and (max-width: 1000px) and (min-width: 601px) {
+  ul {
+    justify-content: center;
+    width: 90vw;
+  }
   ul {
     padding: 3em 0 0 0;
   }
@@ -92,8 +96,9 @@ ul li:last-child {
     width: 3em;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
   ul {
+    justify-content: center;
     width: 90vw;
     height: 12.875em;
     padding: 3em 0 0 0;
@@ -106,5 +111,8 @@ ul li:last-child {
     cursor: pointer;
     height: 9em;
     width: 2em;
+  }
+  .note {
+    font-size: 15px;
   }
 }
